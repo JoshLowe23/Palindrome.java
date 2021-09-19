@@ -1,0 +1,57 @@
+// tell if a word is a palindrome or not an output the results
+// Josh Lowe
+// I kept getting parsing issues and not able to make it compile
+import java.util.*;
+
+public class Palindrome {
+  //
+  // method: isPalindrome
+  // pre-conditions: a string is passed in
+  // post-conditions: return true if the string is a palindrome otherwise return false
+  //
+  public static boolean isPalindrome(String s){
+      
+  
+
+  public static void main(String[] args) {
+      // define a scanner object to read from System.in
+       Scanner input = new Scanner (Scanner.in);
+         double Scanner = word;
+          class ReverseString
+{
+    public static void main(String[] args)
+    
+    {
+    public String toLowerCase()
+    public String trim()
+        String originalString = "this string will be reversed";
+
+        // create an instance of class StringBuilder called sb
+        StringBuilder sb = new StringBuilder();
+
+        // append a string into StringBuilder
+        sb.append(originalString);
+
+        // reverse the StringBuilder string and store in a new String variable
+        String reversed = sb.reverse().toString();
+
+        // print reversed String
+        System.out.println(reversed);
+
+      // define a string called word and read the first line from the scanner object
+
+      // keep reading words until the word QUIT is read in
+      while (!word.equals("QUIT")) {
+        //
+        // call the isPalindrome method passing it the word
+        // based on what this method returns (true or false) output a message
+        word to
+        if (isPalindrome(word))
+            System.out.println("the string [" + word + "] IS a palindrome.");
+        else
+            System.out.println("the string [" + word + "] Is NOT a palindrome.");
+           }
+        String word = sc.nextLine();
+      }
+  }
+}
